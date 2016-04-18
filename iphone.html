@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+
+
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+
+
+
+<style type="text/css">
+
+
+
+		body, html{width: 100%;height: 100%;overflow: hidden;margin:0;}
+
+#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;}
+
+		#golist {display: none;}
+
+
+
+		@media (max-device-width: 780px){#golist{display: block !important;}}
+
+
+
+</style>
+
+
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=57AKvs4UX1QPGytTfizj1Xn9&v=1.0"></script>
+
+
+
+<title>办进京证违章摄像头分布图</title>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?5d5b3f80a6edfd78412604f416b7ef36";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+
+
+
+<body>
+
+
+
+<table width="100%" height="30px" border="0" cellpadding="0" cellspacing="0" bgcolor="#D71724">
+
+
+
+  <tr>
+
+
+
+    <td width="2%" bgcolor="#D81D26">&nbsp;</td>
+
+
+
+    <td width="97%" bgcolor="#D81D26"><div align="center"><span style="color:#FFFFFF; font-size:16px; font-weight:bold;">北京外地车未办进京证违章摄像头分布图</span><br>
+
+    <span style="font-size:12px; color:#FFF;">电脑版更全面网址:www.jinjing365.com/jjz</span></div></td>
+
+
+
+    <td width="1%" bgcolor="#D81D26">&nbsp;</td>
+
+  </tr>
+
+</table>
+
+
+
+<div id="allmap">
+
+
+
+</div>
+
+
+
+<div class="clear">
+
+
+
+</div>
+
+
+
+<script type="text/javascript" src="js/data.js"></script>
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+<script type="text/javascript">
+
+
+
+	// 百度地图API功能
+
+
+
+	var map = new BMap.Map("allmap");            // 创建Map实例
+
+
+
+	var point = new BMap.Point(116.400244, 39.92556); // 创建点坐标
+
+
+
+	map.centerAndZoom(point, 12);                 // 初始化地图,设置中心点坐标和地图级别。
+
+
+
+	map.addControl(new BMap.ZoomControl());      //添加地图缩放控件
+
+
+
+	 if (typeof(points) != 'undefined')
+
+
+
+	    {
+
+
+
+		// 在地图中输出坐标点
+
+
+
+		for (var i = 0, n = points.length; i < n; i++)
+
+
+
+		{
+
+
+
+		    var point = new BMap.Point(points[i].pointx, points[i].pointy);
+
+
+
+	    addMarker(point, points[i].pathname);
+
+
+
+		}
+
+
+
+	    }
+
+
+
+	    // 添加覆盖物
+
+
+
+	    function addMarker(point, title)
+
+
+
+	    {
+
+
+
+		var marker1 = new BMap.Marker(point);
+
+
+
+		map.addOverlay(marker1);
+
+
+
+//创建信息窗口
+
+
+
+	var infoWindow1 = new BMap.InfoWindow(title);
+
+
+
+	marker1.addEventListener("click", function(){this.openInfoWindow(infoWindow1);});
+
+
+
+	    }
+
+
+
+</script>
