@@ -22,6 +22,7 @@ wget_file()
 mkdir css
 mkdir img
 mkdir js
+mkdir rz
 
 wget_file "index.html"
 wget_file "ditu1.html"
@@ -52,4 +53,11 @@ wget_file "bootstrap.min.css" "css/"
 wget_file "commons.css" "css/"
 wget_file "style.css" "css/"
 cd -
+
+cd rz/
+wget_file "21.jpg" "rz/"
+wget_file "index.php?page=1" "rz/"
+wget_file "index.php?page=2" "rz/"
+cd -
+
 
