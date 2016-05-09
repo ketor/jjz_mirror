@@ -19718,7 +19718,7 @@ points=[{"id":"jiejing/1.html","pathname":"上清桥南天桥南北主路 双向
 
 
 
-{"id":"#","pathname":"北环路与西环路交叉口（北向南）","pointx":"116.233192","pointy":"40.235014","title":"北环路与西环路交叉口","description":"北向南"},
+{"id":"#","pathname":"北环路与西环路交叉口（北向南 西向东）","pointx":"116.233192","pointy":"40.235014","title":"北环路与西环路交叉口","description":"北向南 西向东"},
 
 
 
@@ -30486,9 +30486,11 @@ points=[{"id":"jiejing/1.html","pathname":"上清桥南天桥南北主路 双向
 
 {"id":"http://map.baidu.com/#panoid=0900220001150514031604094T5&panotype=street&heading=272.05&pitch=1.13&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=0900220001150514031604094T5","pathname":"簋街花家怡园东 东向西","pointx":"116.436137","pointy":"39.947118","title":"簋街花家怡园东","description":"东向西"},
 
-{"id":"#","pathname":"延庆夏都大桥北 南向北","pointx":"116.40421","pointy":"39.883044","title":"延庆夏都大桥北","description":"南向北"},
+{"id":"#","pathname":"延庆夏都大桥北 南向北","pointx":"115.986539","pointy":"40.460649","title":"延庆夏都大桥北","description":"南向北"},
 {"id":"http://map.baidu.com/#panoid=09002200001503210335080237E&panotype=street&heading=150.51&pitch=-4.86&l=16&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200001503210335080237E","pathname":"京藏高速3.050KM，北向南","pointx":"116.379971","pointy":"40.00306","title":"京藏高速3.050KM","description":"北向南","biaozhu":"1"},
-{"id":"#","pathname":"昌平区南环路与西环路路口 西向东","pointx":"116.233758","pointy":"40.218062","title":"昌平区南环路与西环路路口","description":"西向东"}
+{"id":"#","pathname":"昌平区南环路与西环路路口 西向东","pointx":"116.233758","pointy":"40.218062","title":"昌平区南环路与西环路路口","description":"西向东"},
+
+{"id":"http://map.baidu.com/#panoid=01002200001309151218420705U&panotype=street&heading=295.2&pitch=0.09&l=18&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=01002200001309151218420705U","pathname":"天宁寺桥下 东西双向","pointx":"116.356134","pointy":"39.903502","title":"天宁寺桥下","description":"东西双向"}
 
 
 
