@@ -64,6 +64,16 @@ var cpro_id="u2472894";
 <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
 <hr />
 <div style="background-color:#f5f5f5;border:#eee 1px solid;">
+158 # <a title='2016-06-24 09:28:16'>2016-06-24</a> 修正：修正劲松桥摄像头位置，感谢网友</div><div >
+157 # <a title='2016-06-24 09:17:21'>2016-06-24</a> 新增：东安街北口摄像头，感谢网友不折腾了提供</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
+156 # <a title='2016-06-24 09:08:20'>2016-06-24</a> 新增：双清路与荷清路交汇处摄像头，感谢网友屁屁虫提供</div><div >
+155 # <a title='2016-06-24 08:53:59'>2016-06-24</a> 新增：紫竹院路车道沟桥西摄像头，感谢网友进京进京</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
+154 # <a title='2016-06-24 08:41:43'>2016-06-24</a> 新增：十里堡路口西侧摄像头，感谢网友ISALL提供</div><div >
+153 # <a title='2016-06-24 08:37:14'>2016-06-24</a> 修正：观音堂桥西王四营北路摄像头位置，感谢网友SUNNY</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
+152 # <a title='2016-06-24 08:28:50'>2016-06-24</a> 新增：延庆县康安小区东南门双向摄像头，感谢网友hucisco提供</div><div >
+151 # <a title='2016-06-24 08:24:18'>2016-06-24</a> 新增：四支路大桥南侧摄像头，感谢网友堕落的闪闪红星</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
+150 # <a title='2016-06-24 08:19:08'>2016-06-24</a> 新增：桦皮厂胡同摄像头，感谢网友小灰提供</div><div >
+149 # <a title='2016-06-24 08:14:24'>2016-06-24</a> 新增：怀柔石油灯岗路口南向北摄像头，感谢网友反馈</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
 148 # <a title='2016-04-20 22:38:48'>2016-04-20</a> 新增:天宁寺桥下，南西双向摄像头，感谢网友王子</div><div >
 147 # <a title='2016-04-20 22:29:23'>2016-04-20</a> 修改昌平区北环路与西环路路口 增加西向东方向摄像头。感谢网友皆大欢喜</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
 145 # <a title='2016-04-06 23:20:24'>2016-04-06</a> 新增：京藏高速3.050公里处摄像头，感谢网友liaofl反馈</div><div >
@@ -153,17 +163,7 @@ var cpro_id="u2472894";
 61 # <a title='2015-11-12 09:38:10'>2015-11-12</a> 新增东铁营桥北摄像头，感谢网友Alleluia提供</div><div >
 60 # <a title='2015-11-12 09:26:18'>2015-11-12</a> 新增桦皮厂胡同北口摄像头，感谢网友cicici提供</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
 59 # <a title='2015-11-12 09:19:32'>2015-11-12</a> 新增大兴区兴华桥下南北双向摄像头，感谢网友大兴地区提供</div><div >
-58 # <a title='2015-11-09 23:14:31'>2015-11-09</a> 新增西坝河南路与七圣南路交叉口附近摄像头，感谢网友VJ.乔提供</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
-57 # <a title='2015-11-09 23:04:20'>2015-11-09</a> 新增南环东路与燕平路路口北 南向北摄像头，感谢网友盈科许张稳律师提供</div><div >
-56 # <a title='2015-11-09 22:58:05'>2015-11-09</a> 新增右安门桥下摄像头，感谢网友盈科许张稳律师提供</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
-55 # <a title='2015-11-06 17:47:33'>2015-11-06</a> 修正仰山桥南摄像头并增加详细走法，感谢网友刘大洋</div><div >
-54 # <a title='2015-11-03 23:36:13'>2015-11-03</a> 新增天宁寺桥南双向摄像头，感谢网友111提供，具体位置有待确认</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
-53 # <a title='2015-11-03 23:35:13'>2015-11-03</a> 新增航天桥西摄像头，具体位置有待确认。感谢网友没进京证提供</div><div >
-52 # <a title='2015-10-30 23:09:40'>2015-10-30</a> 新增昌平城区亢山前路与龙水路路口摄像头，感谢网友游客提供</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
-51 # <a title='2015-10-30 00:06:18'>2015-10-30</a> <br />新增德茂桥西摄像头，顾家庄桥南摄像头、玉泉营桥下京开高速摄像头，感谢网友SLC石头、笨鸟の萌叔提供。</div><div >
-50 # <a title='2015-10-28 22:35:40'>2015-10-28</a> 新增和平东桥南、增光路西口摄像头，感谢网友管诚提供</div><div style="background-color:#f5f5f5;border:#eee 1px solid;">
-49 # <a title='2015-10-28 22:09:13'>2015-10-28</a> 新增志远西桥北，北向南摄像头，感谢网友两周被拍两回提供</div><div >
-48 # <a title='2015-10-27 22:19:17'>2015-10-27</a> 新增旧宫桥北摄像头，感谢网友Eric</div><hr />
+58 # <a title='2015-11-09 23:14:31'>2015-11-09</a> 新增西坝河南路与七圣南路交叉口附近摄像头，感谢网友VJ.乔提供</div><hr />
 <form method="get">
     <a href="?page=0">前页</a>&nbsp;
     <select name="page" onchange="window.location='?page='+this.value;">
@@ -175,7 +175,7 @@ var cpro_id="u2472894";
             </option>
             </select>
     &nbsp;
-    <a href="?page=2">后页</a>　［共147更新日志］
+    <a href="?page=2">后页</a>　［共157更新日志］
 </form>
 </body>
 </html>

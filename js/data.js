@@ -9710,7 +9710,7 @@ points=[{"id":"jiejing/1.html","pathname":"上清桥南天桥南北主路 双向
 
 
 
-{"id":"http://map.baidu.com/#panoid=09002200001503220218010615O&panotype=street&heading=126.1&pitch=-12.69&l=17&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200001503220218010615O","pathname":"观音堂桥西 东西双向","pointx":"116.552413","pointy":"39.888897","title":"观音堂桥西","description":"东西双向"},
+{"id":"http://map.baidu.com/#panoid=09002200001503220220476175O&panotype=street&heading=96.41&pitch=-2.21&l=18&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200001503220220476175O","pathname":"观音堂桥西 东西双向","pointx":"116.552413","pointy":"39.888897","title":"观音堂桥西","description":"东西双向"},
 
 
 
@@ -28806,7 +28806,7 @@ points=[{"id":"jiejing/1.html","pathname":"上清桥南天桥南北主路 双向
 
 
 
-{"id":"#","pathname":"劲松桥下 东西双向","pointx":"116.467984","pointy":"39.89007","title":"劲松桥下","description":"东西双向"},
+{"id":"http://map.baidu.com/#panoid=09002200011601141153216158K&panotype=street&heading=81.43&pitch=-8.04&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200011601141153216158K","pathname":"劲松桥西 东西双向","pointx":"116.464923","pointy":"39.890037","title":"劲松桥西","description":"东西双向"},
 
 
 
@@ -30490,7 +30490,26 @@ points=[{"id":"jiejing/1.html","pathname":"上清桥南天桥南北主路 双向
 {"id":"http://map.baidu.com/#panoid=09002200001503210335080237E&panotype=street&heading=150.51&pitch=-4.86&l=16&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200001503210335080237E","pathname":"京藏高速3.050KM，北向南","pointx":"116.379971","pointy":"40.00306","title":"京藏高速3.050KM","description":"北向南","biaozhu":"1"},
 {"id":"#","pathname":"昌平区南环路与西环路路口 西向东","pointx":"116.233758","pointy":"40.218062","title":"昌平区南环路与西环路路口","description":"西向东"},
 
-{"id":"http://map.baidu.com/#panoid=01002200001309151218420705U&panotype=street&heading=295.2&pitch=0.09&l=18&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=01002200001309151218420705U","pathname":"天宁寺桥下 东西双向","pointx":"116.356134","pointy":"39.903502","title":"天宁寺桥下","description":"东西双向"}
+{"id":"http://map.baidu.com/#panoid=01002200001309151218420705U&panotype=street&heading=295.2&pitch=0.09&l=18&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=01002200001309151218420705U","pathname":"天宁寺桥下 东西双向","pointx":"116.356134","pointy":"39.903502","title":"天宁寺桥下","description":"东西双向"},
+
+{"id":"http://map.baidu.com/#panoid=01002200001309251020035275A&panotype=street&heading=2.12&pitch=-10.65&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=01002200001309251020035275A","pathname":"怀柔石油灯岗路口 南向北","pointx":"116.644333","pointy":"40.319388","title":"怀柔石油灯岗路口","description":"南向北"},
+
+{"id":"http://map.baidu.com/#panoid=0900220000150522055703712I6&panotype=street&heading=358.32&pitch=-10.43&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=0900220000150522055703712I6","pathname":"桦皮厂胡同 南向北","pointx":"116.365615","pointy":"39.94895","title":"桦皮厂胡同","description":"南向北"},
+
+{"id":"http://map.baidu.com/#panoid=01002200001308170826526845X&panotype=street&heading=205.73&pitch=-6.83&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=01002200001308170826526845X","pathname":"四支路大桥南侧 双向","pointx":"116.579098","pointy":"39.774164","title":"四支路大桥南侧","description":"双向"},
+
+{"id":"http://map.baidu.com/#panoid=09002200011604091133230439Z&panotype=street&heading=14.78&pitch=0.88&l=18&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200011604091133230439Z","pathname":"延庆康安小区东南门 双向","pointx":"115.975576","pointy":"40.459929","title":"延庆康安小区东南门","description":"双向"},
+
+{"id":"http://map.baidu.com/#panoid=0900220000150521044205266A6&panotype=street&heading=243.35&pitch=-7.34&l=17&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=0900220000150521044205266A6","pathname":"十里堡路口西侧 东西双向","pointx":"116.504988","pointy":"39.929117","title":"十里堡路口西侧","description":"双向"},
+
+{"id":"http://map.baidu.com/#panoid=09002200001505040340304522M&panotype=street&heading=270.59&pitch=2.35&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200001505040340304522M","pathname":"紫竹院路车道沟桥西 东西双向 ","pointx":"116.301189","pointy":"39.953817","title":"紫竹院路车道沟桥西","description":"双向","biaozhu":"1"},
+
+{"id":"http://map.baidu.com/#panoid=09002200011601071014325048E&panotype=street&heading=215.35&pitch=-19.59&l=17&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200011601071014325048E","pathname":"双清路与荷清路交汇口 东北和西南双向","pointx":"116.34367","pointy":"40.004289","title":"双清路与荷清路交汇口","description":"东北和西南双向","biaozhu":"1"},
+
+{"id":"http://map.baidu.com/#panoid=09002200011601151128496407O&panotype=street&heading=333.5&pitch=9.1&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200011601151128496407O","pathname":"东安街北口 北向南","pointx":"116.288909","pointy":"39.855026","title":"东安街北口","description":"北向南","biaozhu":"1"},
+
+{"id":"http://map.baidu.com/#panoid=09002200011601271238034362Q&panotype=street&heading=85.9&pitch=-3.47&l=19&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=09002200011601271238034362Q","pathname":"东安街北口 北向南","pointx":"116.288909","pointy":"39.855026","title":"东安街北口","description":"北向南","biaozhu":"1"},
+
 
 
 
