@@ -185,11 +185,10 @@ a.yahei
 {
   position: absolute;
   left: 0;
-  background: #cecece;
+  background: white;
   top: 30px;
   bottom:0px;
   width: 100%;
-  padding-right: 380px;
   overflow: hidden;
 }
 
@@ -495,7 +494,6 @@ span
 	height: 32px;
 	padding-right: 540px;
 	background: #fff;
-	border-bottom: 1px solid #dedede;
 }
 .drawingToolbar
 {
