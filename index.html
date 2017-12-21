@@ -1,99 +1,34 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="keywords" content="最新进京证摄像头，进京证探头，拍摄进京证，外地车，进京证，外地牌照，外地号牌，非京牌机动车，电子眼，违章摄像头，拍进京证，没办进京证" />
-<meta name="description" content="北京拍摄未办进京证的摄像头探头和电子眼位置多、分布广，最新进京证摄像头分布地图能让你不办进京证也不会违章被扣分罚款。本站内容全部根据网友分享所成，堪称全网最新最快最全面" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
-<title>进京证摄像头位置分布地图-外地车在北京必备</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/commons.css">
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script></head>
-<script>
-	$(function () {
-		$("#iframe1").attr('src',"ditu2.html")
-		$('#link').click(function () {
-			$(this).toggleClass('slide');
-			if($(this).hasClass('slide')){
-				$("#iframe1").attr('src',"ditu1.html")
-			}else{
-				$("#iframe1").attr('src',"ditu2.html")
-			}
-		})
-	})
-</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>进京证摄像头</title>
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        #jjz-map {
+            height: 100%;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <!--更好的在移动平台上展示-->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <!--v2.0版本-->
+    <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=b3g90mWBIE2VaSCcCuPCXjhj"></script> -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=57AKvs4UX1QPGytTfizj1Xn9"></script>
+    <!--路况系列扩展样式+js-->
+    <link href="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://api.map.baidu.com/library/TrafficControl/1.4/src/TrafficControl_min.js"></script>
+</head>
 <body>
-<div class="main_contant">
-<div class="shenglei"><iframe src="ditu1.html" id="iframe1" frameborder="no" width="100%" height="100%" allowtransparency="yes" name="dit" scrolling="no"> 
-</iframe></div>
-    <div class="map-show">
-        <div class="sel_container text-center">
-         <span style="font-size:12px; color: #FF0000; font-weight:bold;" >
-              今日尾号限行：
-              <span id="todaynum">
-              </span>
-            </span>
-        </div>
-        <div class="drawingToolbar">
-            <div> <input type="checkbox" id="data_download" class="chk_4" checked="">
-      <label for="data_download" id="link" class="dt-middle dt-mar12l dt-mar4t pull-right"></label></div>
-            
-           
-            <div class="line-right"></div>
-        </div>
-       
-    </div>
-</div>
-<div class="dt-w100per dt-h48 dt-bg-blue3A dt-pos-a dt-z10">
-    <div class="dt-w380 pull-left dt-pad16x"><img src="newlogo (1).png" width="303" height="44"></div>
-<div class="pull-left edit-title">
-        <div class="pull-left white dt-line-48h dt-f16 dt-truncate" style="max-width: 550px;">
-            北京外地车未办理进京证违章摄像头分布图<span style="font-size:14px; padding-left:12px;">(更新时间：2016-06-24)</span>        </div>
-  </div>
-    <div class="pull-right">
-        <span class="white dt-pad12l dt-pad24r pull-left dt-line-48h"><a href="rz" target="_blank">更新日志</a></span>
-</div>
-<div class="map-info">
-</div>
+<div style="width:100%; height:100%;"><div id="jjz-map"></div></div>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/baidumap.js"></script>
 </body>
 </html>
-<script type="text/javascript">
-              function getXHNumber(tDate, sDate)
-              {
-                var nDayNum = tDate.getDay() == 0 ? 7 : tDate.getDay(); //4
-                if (nDayNum > 5) return nDayNum;
-                var nDiff = (tDate - sDate) / 1000 / 3600 / 24 / 7 / 13;
-                nDiff = Math.floor(nDiff) % 5; //2
-                nDayNum = 5 - nDiff + nDayNum;
-                if (nDayNum > 5) nDayNum -= 5;
-                return nDayNum;
-              }
-              //获取今天的日期
-              var dd = new Date();
-              var y = dd.getFullYear();
-              var m = dd.getMonth() + 1; //获取当前月份的日期 
-              var d = dd.getDate();
-              if (m < 10) {
-                m = "0" + m;
-              }
-              if (d < 10) {
-                d = "0" + d;
-              }
-              var sday = y + "-" + m + "-" + d;
-              var sStartDate = '2016-01-10'; //开始星期，周一的日期
-              var x1 = '3和8';
-              var x2 = '4和9';
-              var x3 = '5和0';
-              var x4 = '1和6';
-              var x5 = '2和7';
-              var x6 = '不限行';
-              var x7 = '不限行';
-              var arr1 = sStartDate.split("-");
-              var vStartDate = new Date(arr1[0], arr1[1] - 1, arr1[2]);
-              var arr2 = sday.split("-");
-              var vToday = new Date(arr2[0], arr2[1] - 1, arr2[2]);
-              var nTodayNum = getXHNumber(vToday, vStartDate);
-              document.getElementById("todaynum").innerHTML = eval('x' + nTodayNum);
-            </script>
