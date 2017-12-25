@@ -127,12 +127,12 @@ function addMarker(point, title, content) {
         });
         if (points[i].biaozhu == "1") {
                 marker = new BMap.Marker(point, {
-                        icon: new BMap.Icon("blue.png", new BMap.Size(20, 25)),
+                        icon: new BMap.Icon(blue_icon, new BMap.Size(20, 25)),
                         offset: new BMap.Size(0, -10)
                 }); //创建对象
         } else {
                 marker = new BMap.Marker(point, {
-                        icon: new BMap.Icon("red.png", new BMap.Size(20, 25)),
+                        icon: new BMap.Icon(red_icon, new BMap.Size(20, 25)),
                         offset: new BMap.Size(0, -10)
                 });
         }
