@@ -39,6 +39,7 @@ geolocationControl.addEventListener("locationError", function (e) {
     alert(e.message);
 });
 
+//====二环内外地车限行路段 start====
 //二环主路
 var polyline = new BMap.Polyline([new BMap.Point(116.385871, 39.955059), new BMap.Point(116.436734, 39.95575), new BMap.Point(116.438925, 39.955197), new BMap.Point(116.440264, 39.953427), new BMap.Point(116.441548, 39.920012), new BMap.Point(116.442141, 39.916927), new BMap.Point(116.44277, 39.907588), new BMap.Point(116.444782, 39.905623), new BMap.Point(116.450603, 39.903714), new BMap.Point(116.452813, 39.884186), new BMap.Point(116.450549, 39.877763), new BMap.Point(116.447926, 39.876296), new BMap.Point(116.424391, 39.877293), new BMap.Point(116.421265, 39.878539), new BMap.Point(116.390291, 39.877348), new BMap.Point(116.373223, 39.875549), new BMap.Point(116.365103, 39.874164), new BMap.Point(116.357198, 39.874386), new BMap.Point(116.355329, 39.876241), new BMap.Point(116.355976, 39.881307), new BMap.Point(116.355221, 39.902344), new BMap.Point(116.356946, 39.903838), new BMap.Point(116.362551, 39.904641), new BMap.Point(116.36336, 39.905969), new BMap.Point(116.363216, 39.917923), new BMap.Point(116.362048, 39.948297), new BMap.Point(116.364258, 39.950164), new BMap.Point(116.378865, 39.954658), new BMap.Point(116.385898, 39.955073)], {
         strokeColor: "red",
@@ -166,6 +167,7 @@ var polyline = new BMap.Polyline([new BMap.Point(116.400145, 39.929534), new BMa
         strokeOpacity: 0.0
 });
 map.addOverlay(polyline); //增加折线
+//====二环内外地车限行路段 end====
 
 // 添加点击事件侦听
 function addClickHandler(marker, title, content) {
