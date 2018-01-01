@@ -159,3 +159,10 @@ function addMarker(point, title, content) {
                 map.openInfoWindow(infoWindow, point); //开启信息窗口
         });
 }
+
+// 显示坐标
+function showPoint(e)
+{
+        console.log(e.point.lng + ", " + e.point.lat);
+}
+map.addEventListener("click", showPoint);
